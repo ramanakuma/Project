@@ -1,0 +1,513 @@
+@primary-color:#00ccff;
+@secondary-color:#ff6633;
+@darkcolor:#606060;
+@litedark:#797979;
+@labelcolor:rgba(228, 228, 228, 1);
+@textcolor:#666666;
+@childprimary-color:rgba(0, 51, 153, 1);
+@btncolor:linear-gradient(135deg, rgba(0, 204, 255, 1) 0%, rgba(0, 204, 255, 1) 0%, rgba(0, 174, 225, 1) 100%, rgba(0, 174, 225, 1) 100%);
+@btnmouseover:rgba(0, 204, 255, 1);
+@iconcolor:#999999;
+@shadow:0px 0px 10px rgba(174, 174, 174, 0.34901961);
+@hovercolor:rgba(255, 51,0, 1);
+@mouseOver:linear-gradient(180deg, rgba(242, 242, 242, 1) 0%, rgba(242, 242, 242, 1) 0%, rgba(249, 249, 249, 1) 100%, rgba(249, 249, 249, 1) 100%);
+@font:'Montserrat Bold', 'Montserrat Regular', 'Montserrat';
+
+
+  .createalert{
+      box-shadow:@shadow;
+      display:none;
+            .firstOne{
+                    box-shadow: @shadow;
+                    padding: 10px 10px;
+                        .title{
+                                font-family: @font;
+                                font-weight: 700;
+                                font-style: normal;
+                                color: #666666;
+                                text-align: left;
+                            }
+                        .count{
+                            color:@childprimary-color;
+                            }
+                }
+            .tabs{
+                    margin-top: -4px;
+                    margin-bottom: 45px;
+                        ul{
+                            padding-left: 0;
+                            list-style: none;
+                                li{
+                                        float: left;
+                                        padding: 5px 10px;
+                                        font-size: 13px;
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        color: #606060;
+                                        cursor: pointer;
+                                            &:hover{
+                                                background: #f2f2f2;
+                                                border-bottom: 2px solid #003399;
+                                                }
+                                    }
+                                .active{
+                                    background: #f2f2f2;
+                                    border-bottom: 2px solid #003399;
+                                    }
+                            }
+                }
+            .map-content{
+                
+                .maping{
+                    height:300px;
+                    }
+                }
+            .location-content{
+                .panel{
+                    background:rgba(242, 242, 242, 1);
+                        .panel-heading{
+                            padding:10px 3px;
+                                .icon{
+                                     position: absolute;
+                                    top: 19px;
+                                    left: 11px;
+                                    font-size: 20px;
+                                    color:@litedark;
+                                }
+                            input{
+                                padding-left:25px;
+                                }
+                            }
+                        .panel-body{
+                            padding:0px 6px;
+                            height: 400px;
+                        overflow-y: auto;
+                                ul{
+                                    list-style:none;
+                                    background: #fff;
+                                    padding-left: 0px;
+                                    padding-top: 5px;
+                                        li{
+                                            padding: 5px 10px;
+                                            border-bottom: 1px solid #eee;
+                                            input{
+                                                position: relative;
+                                                top: 2px;
+                                                margin-right: 5px;
+                                                }
+                                              span{
+                                                    font-size:13px;
+                                                    font-weight:400;
+                                                    font-style:normal;
+                                                    font-family:@font;
+                                                    color:@litedark;
+                                                }
+                                            }
+                                    }
+                            }
+                    }
+                }
+            .zip-content{
+                display:none;
+                label{
+                    color:@litedark;
+                    font-size:13px;
+                    }
+                }
+            .src_crt{
+                     margin-top:20px;
+                .ttl{
+                        font-size: 13px;
+                        font-style: normal;
+                        font-weight: 700;
+                        color:@litedark;
+                        font-family:@font;
+                    }
+                      
+                    .priceoption{
+                        color:@litedark;
+                        font-size:13px;
+                        font-weight:400;
+                        margin-right:10px;
+                        }
+                    .price_cls{
+                        .slider{
+                            width:100%;
+                            height:10px;
+                            .tooltip-inner{
+                                background:@secondary-color;
+                                }
+                            .tooltip-arrow{
+                                border-top-color:@secondary-color;
+                                }
+                                .slider-track{
+                                    background:rgba(215, 215, 215, 1);
+                                    height:7px;
+                                        .slider-selection{
+                                            background:rgba(215, 215, 215, 1);
+                                            }
+                                    }
+                                .slider-handle{
+                                    width:15px;
+                                    height:15px;
+                                    background:@primary-color;
+                                    top:-4px;
+                                    }
+                            }
+                        span:first-child{
+                            float:left;
+                            }
+                        span:nth-child(2n){
+                            float: right;
+                            margin-right: 7px;
+                            }
+                        span{
+                            background:@secondary-color;
+                            color: #fff;
+                            width: 67px;
+                            height: 21px;
+                            padding: 1px 3px;
+                            border-radius: 3px;
+                            font-size: 13px;
+                            font-family: @font;
+                            text-align: center;
+                            display: block;
+                            }
+                        }
+                .price{
+                  
+                    .bootstrap-select{
+                        background:#fff;
+                            button{
+                                background:#fff;
+                                outline:0;
+                                border-radius:3px;
+                                    .filter-option{
+                                        font-size:13px;
+                                        font-weight:400;
+                                        font-family:@font;
+                                        font-style:normal;
+                                        color:@litedark;
+                                        }
+                                    .bs-caret{
+                                        color:@litedark;
+                                        }
+                                    &:focus{
+                                        box-shadow:none;
+                                        background:#fff;
+                                        outline:0;
+                                        }
+                                    &:hover{
+                                        box-shadow:none;
+                                        background:#fff;
+                                        }
+                                }
+                        }
+                    
+                    }
+                .filters{
+                        ul{
+                            list-style:none;
+                            padding-left: 0;
+                            }
+                        .advancesearchlist{
+                            li{
+                                font-family:@font;
+                                font-weight: 400;
+                                font-style: normal;
+                                font-size: 13px;
+                                color: @litedark;
+                                padding: 8px 15px;
+                                cursor: pointer;
+                                }
+                            .active{
+                                background:@childprimary-color;
+                                color:#fff;
+                                font-weight:700;
+                                }
+                            }
+                        .advancesearch_form {
+                            .propertytype_search, .status-search, .beds-search, .baths-search, .pricereduce-search, .more-search, .popularfeature-search, .morefeature-search{
+                                background:#f2f2f2;
+                                }
+                            .propertytype_search {
+                                    height: 300px;
+                                    overflow-y: auto;
+                                        ul{
+                                            li{
+                                                    padding: 5px 10px;
+                                                    background: #f2f2f2;
+                                                    border-bottom: 1px solid #e4e4e4;
+                                                        input{
+                                                            margin-right:10px;
+                                                            position:relative;
+                                                            top:3px;
+                                                            }
+                                                        label{
+                                                            font-family:@font;
+                                                            font-weight: 400;
+                                                            font-style: normal;
+                                                            font-size: 12px;
+                                                            color: @litedark;
+                                                            margin: 2px 5px;
+                                                            }
+                                                }
+                                            }
+                                        }
+                                .status-search, .beds-search, .baths-search, .pricereduce-search, .more-search, .popularfeature-search, .morefeature-search{
+                                    height: 300px;
+                                    overflow-y: scroll;
+                                    display: none;
+                                    padding-top: 13px;
+                                           ul{
+                                            li{
+                                                    padding: 5px 10px;
+                                                    background: #f2f2f2;
+                                                    border-bottom: 1px solid #e4e4e4;
+                                                        input{
+                                                            margin-right:10px;
+                                                            position:relative;
+                                                            top:3px;
+                                                            }
+                                                        label{
+                                                            font-family:@font;
+                                                            font-weight: 400;
+                                                            font-style: normal;
+                                                            font-size: 12px;
+                                                            color: @litedark;
+                                                            margin: 2px 5px;
+                                                            }
+                                                }
+                                            }
+                                    }
+                                .more-search{
+                                    ul{
+                                        li{
+                                            padding:12px 10px;
+                                            }
+                                        .dayonsite{
+                                            select{
+                                                width:64%;
+                                                float:left;
+                                                margin-top:-6px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                .morefeature-search {
+                                    .panel {
+                                                border-radius: 0;
+                                                    .panel-heading{
+                                                        padding:7px 15px;
+                                                            .panel-title{
+                                                                a{
+                                                                    color:@litedark;
+                                                                    font-size:13px;
+                                                                    font-weight:700;
+                                                                    font-style:normal;
+                                                                    display:block;
+                                                                    }
+                                                                }
+                                                            .accordion-toggle:after {
+                                                                font: normal normal normal 14px/1 FontAwesome;
+                                                                content: "\f106";
+                                                                float: right;
+                                                            }
+                                                            
+                                                                .collapsed:after {
+                                                                        content: "\f107";
+                                                                    }
+                                                               
+                                                        }
+                                            }
+                                    }
+                            }
+                        }
+                    .keyword_data{
+                        .cnt{
+                            color:@litedark;
+                            font-size:11px;
+                            font-familly:@font;
+                            }
+                        
+                            .form-group{
+                                margin-bottom:10px;
+                                    .ttl{
+                                        font-family:@font;
+                                        font-size:13px;
+                                        font-weight:700;
+                                        color:@litedark;
+                                        }
+                                    .data{
+                                        .ttl();
+                                        font-weight:400;
+                                        }
+                                    .email_cn{
+                                        input{
+                                            margin-right:10px;
+                                            position:relative;
+                                            top:3px;
+                                            }
+                                        .des_pt{
+                                            float: right;
+                                            margin-right: 31px;
+                                            }
+                                        }
+                                    .add_n_email{
+                                        background:@btncolor;
+                                        color:#fff;
+                                        font-size:13px;
+                                        font-weight:400;
+                                        font-family:@font;
+                                        border-radius:3px;
+                                        border:0;
+                                        padding: 5px 10px;
+                                        display:none;
+                                            .cn{
+                                                position:relative;
+                                                top:-2px;
+                                                }
+                                            &:hover{
+                                                background:@btnmouseover;
+                                                }
+                                            .icon{
+                                                font-size: 22px;
+                                                margin-right: 5px;
+                                                position: relative;
+                                                top: 3px;
+                                                }
+                                    }
+                                
+                                }
+                            .new_email{
+                                    margin-top:5px;
+                                    padding-top:8px;
+                                    padding-bottom:8px;
+                                    background:rgba(242, 242, 242, 1);
+                                        .remove{
+                                            background:@btncolor;
+                                            font-size:13px;
+                                            color:#fff;
+                                            font-weight:400;
+                                            font-family:@font;
+                                            border-radius:3px;
+                                            border:0;
+                                            padding:5px 10px;
+                                                .icon{
+                                                    margin-left:5px;
+                                                    }
+                                            }
+                                    }
+                        
+                        }
+                }
+            }
+    .modal_alerts{
+    	.modal-header{
+    		.close{
+    			font-weight:700;
+    			color:@darkcolor;
+    	    	font-size: 45px;
+                position: absolute;
+                right: 14px;
+                top: 0;
+
+    			}
+    		h4{
+    			font-weight:700;
+    			font-size:13px;
+    			font-style:400;
+    			font-family:@font;
+    			color:@litedark;
+    			}
+    		}
+    	   		.modal-body{
+    	   			.panel-heading{
+    	   				background:#fff;
+    	   					&:hover{
+    	   						background:@secondary-color;
+    	   						color:#fff;
+    	   						}
+    	   					&:hover .icon-badge .icon{
+    	   						color:#fff;
+    	   						}
+    	   					&:hover .more-less{
+    	   						color:#fff;
+    	   						}
+    	   					&:hover .info p{
+    	   						color:#fff;
+    	   						}
+    	   				}
+    				.panel-title{
+    			a{
+    				&:hover{
+    					text-decoration:none;
+    					}
+    				&:focus{
+    					text-decoration:none;
+    					}
+    				.more-less{
+    					float:right;
+    					color:@litedark;
+    					margin-top: 24px;
+    					}
+    				}
+    			.icon-badge{
+    				float:left;
+    				margin-top: 16px;
+    					.icon{
+    						color:@litedark;
+    						font-size:18px;
+    						}
+    				}
+    			.info{
+    				margin-left:34px;
+    					p{
+    						margin:0 0px 6px
+    							
+    						}
+    					.ttl{
+    						font-size:12px;
+    						font-weight:400;
+    						color:@darkcolor;
+    						font-family:@font;
+    							.icon{
+    								margin-right:5px;
+    								}
+    						}
+    					.cnt{
+    						.ttl();
+    						font-size:12px;
+    						color:#CCCCCC;
+    						
+    					
+    						}
+    				}
+    			}
+    	.panel-body{
+    		background:rgba(242, 242, 242, 1);
+    			table{
+    				tbody{
+    					td:first-child{
+    						font-weight:700;
+    						font-size:13px;
+    						font-family:@font;
+    						color:@darkcolor;
+    						text-align:right;
+    						width:100px;
+    						vertical-align: top;
+    						}
+    					td:last-child{
+    						font-weight:400;
+    						font-size:13px;
+    						font-family:@font;
+    						color:@litedark;
+    						padding-left:15px;
+    						padding-bottom:8px;
+    						}
+    					}
+    				}
+    		}
+    			}
+    	}
+        

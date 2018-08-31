@@ -1,0 +1,478 @@
+.createalert {
+  box-shadow: 0px 0px 10px rgba(174, 174, 174, 0.34901961);
+  display: none;
+}
+.createalert .firstOne {
+  box-shadow: 0px 0px 10px rgba(174, 174, 174, 0.34901961);
+  padding: 10px 10px;
+}
+.createalert .firstOne .title {
+  font-family: 'Montserrat Bold', 'Montserrat Regular', 'Montserrat';
+  font-weight: 700;
+  font-style: normal;
+  color: #666666;
+  text-align: left;
+}
+.createalert .firstOne .count {
+  color: #003399;
+}
+.createalert .tabs {
+  margin-top: -4px;
+  margin-bottom: 45px;
+}
+.createalert .tabs ul {
+  padding-left: 0;
+  list-style: none;
+}
+.createalert .tabs ul li {
+  float: left;
+  padding: 5px 10px;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  color: #606060;
+  cursor: pointer;
+}
+.createalert .tabs ul li:hover {
+  background: #f2f2f2;
+  border-bottom: 2px solid #003399;
+}
+.createalert .tabs ul .active {
+  background: #f2f2f2;
+  border-bottom: 2px solid #003399;
+}
+.createalert .map-content .maping {
+  height: 300px;
+}
+.createalert .location-content .panel {
+  background: #f2f2f2;
+}
+.createalert .location-content .panel .panel-heading {
+  padding: 10px 3px;
+}
+.createalert .location-content .panel .panel-heading .icon {
+  position: absolute;
+  top: 19px;
+  left: 11px;
+  font-size: 20px;
+  color: #797979;
+}
+.createalert .location-content .panel .panel-heading input {
+  padding-left: 25px;
+}
+.createalert .location-content .panel .panel-body {
+  padding: 0px 6px;
+  height: 400px;
+  overflow-y: auto;
+}
+.createalert .location-content .panel .panel-body ul {
+  list-style: none;
+  background: #fff;
+  padding-left: 0px;
+  padding-top: 5px;
+}
+.createalert .location-content .panel .panel-body ul li {
+  padding: 5px 10px;
+  border-bottom: 1px solid #eee;
+}
+.createalert .location-content .panel .panel-body ul li input {
+  position: relative;
+  top: 2px;
+  margin-right: 5px;
+}
+.createalert .location-content .panel .panel-body ul li span {
+  font-size: 13px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: 'Montserrat Bold', 'Montserrat Regular', 'Montserrat';
+  color: #797979;
+}
+.createalert .zip-content {
+  display: none;
+}
+.createalert .zip-content label {
+  color: #797979;
+  font-size: 13px;
+}
+.createalert .src_crt {
+  margin-top: 20px;
+}
+.createalert .src_crt .ttl {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  color: #797979;
+  font-family: 'Montserrat Bold', 'Montserrat Regular', 'Montserrat';
+}
+.createalert .src_crt .priceoption {
+  color: #797979;
+  font-size: 13px;
+  font-weight: 400;
+  margin-right: 10px;
+}
+.createalert .src_crt .price_cls .slider {
+  width: 100%;
+  height: 10px;
+}
+.createalert .src_crt .price_cls .slider .tooltip-inner {
+  background: #ff6633;
+}
+.createalert .src_crt .price_cls .slider .tooltip-arrow {
+  border-top-color: #ff6633;
+}
+.createalert .src_crt .price_cls .slider .slider-track {
+  background: #d7d7d7;
+  height: 7px;
+}
+.createalert .src_crt .price_cls .slider .slider-track .slider-selection {
+  background: #d7d7d7;
+}
+.createalert .src_crt .price_cls .slider .slider-handle {
+  width: 15px;
+  height: 15px;
+  background: #00ccff;
+  top: -4px;
+}
+.createalert .src_crt .price_cls span:first-child {
+  float: left;
+}
+.createalert .src_crt .price_cls span:nth-child(2n) {
+  float: right;
+  margin-right: 7px;
+}
+.createalert .src_crt .price_cls span {
+  background: #ff6633;
+  color: #fff;
+  width: 67px;
+  height: 21px;
+  padding: 1px 3px;
+  border-radius: 3px;
+  font-size: 13px;
+  font-family: 'Montserrat Bold', 'Montserrat Regular', 'Montserrat';
+  text-align: center;
+  display: block;
+}
+.createalert .src_crt .price .bootstrap-select {
+  background: #fff;
+}
+.createalert .src_crt .price .bootstrap-select button {
+  background: #fff;
+  outline: 0;
+  border-radius: 3px;
+}
+.createalert .src_crt .price .bootstrap-select button .filter-option {
+  font-size: 13px;
+  font-weight: 400;
+  font-family: 'Montserrat Bold', 'Montserrat Regular', 'Montserrat';
+  font-style: normal;
+  color: #797979;
+}
+.createalert .src_crt .price .bootstrap-select button .bs-caret {
+  color: #797979;
+}
+.createalert .src_crt .price .bootstrap-select button:focus {
+  box-shadow: none;
+  background: #fff;
+  outline: 0;
+}
+.createalert .src_crt .price .bootstrap-select button:hover {
+  box-shadow: none;
+  background: #fff;
+}
+.createalert .src_crt .filters ul {
+  list-style: none;
+  padding-left: 0;
+}
+.createalert .src_crt .filters .advancesearchlist li {
+  font-family: 'Montserrat Bold', 'Montserrat Regular', 'Montserrat';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+  color: #797979;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+.createalert .src_crt .filters .advancesearchlist .active {
+  background: #003399;
+  color: #fff;
+  font-weight: 700;
+}
+.createalert .src_crt .filters .advancesearch_form .propertytype_search,
+.createalert .src_crt .filters .advancesearch_form .status-search,
+.createalert .src_crt .filters .advancesearch_form .beds-search,
+.createalert .src_crt .filters .advancesearch_form .baths-search,
+.createalert .src_crt .filters .advancesearch_form .pricereduce-search,
+.createalert .src_crt .filters .advancesearch_form .more-search,
+.createalert .src_crt .filters .advancesearch_form .popularfeature-search,
+.createalert .src_crt .filters .advancesearch_form .morefeature-search {
+  background: #f2f2f2;
+}
+.createalert .src_crt .filters .advancesearch_form .propertytype_search {
+  height: 300px;
+  overflow-y: auto;
+}
+.createalert .src_crt .filters .advancesearch_form .propertytype_search ul li {
+  padding: 5px 10px;
+  background: #f2f2f2;
+  border-bottom: 1px solid #e4e4e4;
+}
+.createalert .src_crt .filters .advancesearch_form .propertytype_search ul li input {
+  margin-right: 10px;
+  position: relative;
+  top: 3px;
+}
+.createalert .src_crt .filters .advancesearch_form .propertytype_search ul li label {
+  font-family: 'Montserrat Bold', 'Montserrat Regular', 'Montserrat';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  color: #797979;
+  margin: 2px 5px;
+}
+.createalert .src_crt .filters .advancesearch_form .status-search,
+.createalert .src_crt .filters .advancesearch_form .beds-search,
+.createalert .src_crt .filters .advancesearch_form .baths-search,
+.createalert .src_crt .filters .advancesearch_form .pricereduce-search,
+.createalert .src_crt .filters .advancesearch_form .more-search,
+.createalert .src_crt .filters .advancesearch_form .popularfeature-search,
+.createalert .src_crt .filters .advancesearch_form .morefeature-search {
+  height: 300px;
+  overflow-y: scroll;
+  display: none;
+  padding-top: 13px;
+}
+.createalert .src_crt .filters .advancesearch_form .status-search ul li,
+.createalert .src_crt .filters .advancesearch_form .beds-search ul li,
+.createalert .src_crt .filters .advancesearch_form .baths-search ul li,
+.createalert .src_crt .filters .advancesearch_form .pricereduce-search ul li,
+.createalert .src_crt .filters .advancesearch_form .more-search ul li,
+.createalert .src_crt .filters .advancesearch_form .popularfeature-search ul li,
+.createalert .src_crt .filters .advancesearch_form .morefeature-search ul li {
+  padding: 5px 10px;
+  background: #f2f2f2;
+  border-bottom: 1px solid #e4e4e4;
+}
+.createalert .src_crt .filters .advancesearch_form .status-search ul li input,
+.createalert .src_crt .filters .advancesearch_form .beds-search ul li input,
+.createalert .src_crt .filters .advancesearch_form .baths-search ul li input,
+.createalert .src_crt .filters .advancesearch_form .pricereduce-search ul li input,
+.createalert .src_crt .filters .advancesearch_form .more-search ul li input,
+.createalert .src_crt .filters .advancesearch_form .popularfeature-search ul li input,
+.createalert .src_crt .filters .advancesearch_form .morefeature-search ul li input {
+  margin-right: 10px;
+  position: relative;
+  top: 3px;
+}
+.createalert .src_crt .filters .advancesearch_form .status-search ul li label,
+.createalert .src_crt .filters .advancesearch_form .beds-search ul li label,
+.createalert .src_crt .filters .advancesearch_form .baths-search ul li label,
+.createalert .src_crt .filters .advancesearch_form .pricereduce-search ul li label,
+.createalert .src_crt .filters .advancesearch_form .more-search ul li label,
+.createalert .src_crt .filters .advancesearch_form .popularfeature-search ul li label,
+.createalert .src_crt .filters .advancesearch_form .morefeature-search ul li label {
+  font-family: 'Montserrat Bold', 'Montserrat Regular', 'Montserrat';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  color: #797979;
+  margin: 2px 5px;
+}
+.createalert .src_crt .filters .advancesearch_form .more-search ul li {
+  padding: 12px 10px;
+}
+.createalert .src_crt .filters .advancesearch_form .more-search ul .dayonsite select {
+  width: 64%;
+  float: left;
+  margin-top: -6px;
+}
+.createalert .src_crt .filters .advancesearch_form .morefeature-search .panel {
+  border-radius: 0;
+}
+.createalert .src_crt .filters .advancesearch_form .morefeature-search .panel .panel-heading {
+  padding: 7px 15px;
+}
+.createalert .src_crt .filters .advancesearch_form .morefeature-search .panel .panel-heading .panel-title a {
+  color: #797979;
+  font-size: 13px;
+  font-weight: 700;
+  font-style: normal;
+  display: block;
+}
+.createalert .src_crt .filters .advancesearch_form .morefeature-search .panel .panel-heading .accordion-toggle:after {
+  font: normal normal normal 14px/1 FontAwesome;
+  content: "\f106";
+  float: right;
+}
+.createalert .src_crt .filters .advancesearch_form .morefeature-search .panel .panel-heading .collapsed:after {
+  content: "\f107";
+}
+.createalert .src_crt .keyword_data .cnt {
+  color: #797979;
+  font-size: 11px;
+  font-familly: 'Montserrat Bold', 'Montserrat Regular', 'Montserrat';
+}
+.createalert .src_crt .keyword_data .form-group {
+  margin-bottom: 10px;
+}
+.createalert .src_crt .keyword_data .form-group .ttl {
+  font-family: 'Montserrat Bold', 'Montserrat Regular', 'Montserrat';
+  font-size: 13px;
+  font-weight: 700;
+  color: #797979;
+}
+.createalert .src_crt .keyword_data .form-group .data {
+  font-family: 'Montserrat Bold', 'Montserrat Regular', 'Montserrat';
+  font-size: 13px;
+  font-weight: 700;
+  color: #797979;
+  font-weight: 400;
+}
+.createalert .src_crt .keyword_data .form-group .email_cn input {
+  margin-right: 10px;
+  position: relative;
+  top: 3px;
+}
+.createalert .src_crt .keyword_data .form-group .email_cn .des_pt {
+  float: right;
+  margin-right: 31px;
+}
+.createalert .src_crt .keyword_data .form-group .add_n_email {
+  background: linear-gradient(135deg, #00ccff 0%, #00ccff 0%, #00aee1 100%, #00aee1 100%);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: 'Montserrat Bold', 'Montserrat Regular', 'Montserrat';
+  border-radius: 3px;
+  border: 0;
+  padding: 5px 10px;
+  display: none;
+}
+.createalert .src_crt .keyword_data .form-group .add_n_email .cn {
+  position: relative;
+  top: -2px;
+}
+.createalert .src_crt .keyword_data .form-group .add_n_email:hover {
+  background: #00ccff;
+}
+.createalert .src_crt .keyword_data .form-group .add_n_email .icon {
+  font-size: 22px;
+  margin-right: 5px;
+  position: relative;
+  top: 3px;
+}
+.createalert .src_crt .keyword_data .new_email {
+  margin-top: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background: #f2f2f2;
+}
+.createalert .src_crt .keyword_data .new_email .remove {
+  background: linear-gradient(135deg, #00ccff 0%, #00ccff 0%, #00aee1 100%, #00aee1 100%);
+  font-size: 13px;
+  color: #fff;
+  font-weight: 400;
+  font-family: 'Montserrat Bold', 'Montserrat Regular', 'Montserrat';
+  border-radius: 3px;
+  border: 0;
+  padding: 5px 10px;
+}
+.createalert .src_crt .keyword_data .new_email .remove .icon {
+  margin-left: 5px;
+}
+.modal_alerts .modal-header .close {
+  font-weight: 700;
+  color: #606060;
+  font-size: 45px;
+  position: absolute;
+  right: 14px;
+  top: 0;
+}
+.modal_alerts .modal-header h4 {
+  font-weight: 700;
+  font-size: 13px;
+  font-style: 400;
+  font-family: 'Montserrat Bold', 'Montserrat Regular', 'Montserrat';
+  color: #797979;
+}
+.modal_alerts .modal-body .panel-heading {
+  background: #fff;
+}
+.modal_alerts .modal-body .panel-heading:hover {
+  background: #ff6633;
+  color: #fff;
+}
+.modal_alerts .modal-body .panel-heading:hover .icon-badge .icon {
+  color: #fff;
+}
+.modal_alerts .modal-body .panel-heading:hover .more-less {
+  color: #fff;
+}
+.modal_alerts .modal-body .panel-heading:hover .info p {
+  color: #fff;
+}
+.modal_alerts .modal-body .panel-title a:hover {
+  text-decoration: none;
+}
+.modal_alerts .modal-body .panel-title a:focus {
+  text-decoration: none;
+}
+.modal_alerts .modal-body .panel-title a .more-less {
+  float: right;
+  color: #797979;
+  margin-top: 24px;
+}
+.modal_alerts .modal-body .panel-title .icon-badge {
+  float: left;
+  margin-top: 16px;
+}
+.modal_alerts .modal-body .panel-title .icon-badge .icon {
+  color: #797979;
+  font-size: 18px;
+}
+.modal_alerts .modal-body .panel-title .info {
+  margin-left: 34px;
+}
+.modal_alerts .modal-body .panel-title .info p {
+  margin: 0 0px 6px;
+}
+.modal_alerts .modal-body .panel-title .info .ttl {
+  font-size: 12px;
+  font-weight: 400;
+  color: #606060;
+  font-family: 'Montserrat Bold', 'Montserrat Regular', 'Montserrat';
+}
+.modal_alerts .modal-body .panel-title .info .ttl .icon {
+  margin-right: 5px;
+}
+.modal_alerts .modal-body .panel-title .info .cnt {
+  font-weight: 400;
+  color: #606060;
+  font-family: 'Montserrat Bold', 'Montserrat Regular', 'Montserrat';
+  font-size: 12px;
+  color: #CCCCCC;
+}
+.modal_alerts .modal-body .panel-title .info .cnt .icon {
+  margin-right: 5px;
+}
+.modal_alerts .modal-body .panel-body {
+  background: #f2f2f2;
+}
+.modal_alerts .modal-body .panel-body table tbody td:first-child {
+  font-weight: 700;
+  font-size: 13px;
+  font-family: 'Montserrat Bold', 'Montserrat Regular', 'Montserrat';
+  color: #606060;
+  text-align: right;
+  width: 100px;
+  vertical-align: top;
+}
+.modal_alerts .modal-body .panel-body table tbody td:last-child {
+  font-weight: 400;
+  font-size: 13px;
+  font-family: 'Montserrat Bold', 'Montserrat Regular', 'Montserrat';
+  color: #797979;
+  padding-left: 15px;
+  padding-bottom: 8px;
+}
+
+/*# sourceMappingURL=ealert.css.map */

@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+
+.button_normal {
+  background-image: -moz-linear-gradient( 46deg, rgb(8,113,185) 0%, rgb(0,204,255) 100%);
+  background-image: -webkit-linear-gradient( 46deg, rgb(8,113,185) 0%, rgb(0,204,255) 100%);
+  background-image: -ms-linear-gradient( 46deg, rgb(8,113,185) 0%, rgb(0,204,255) 100%);
+  position: absolute;
+  left: 114px;
+  top: 38px;
+  width: 100px;
+  height: 36px;
+  z-index: 3;
+}
+.button_hover {
+ background-image: -moz-linear-gradient( 46deg, rgb(8,113,185) 0%, rgb(0,204,255) 100%);
+  background-image: -webkit-linear-gradient( 46deg, rgb(8,113,185) 0%, rgb(0,204,255) 100%);
+  background-image: -ms-linear-gradient( 46deg, rgb(8,113,185) 0%, rgb(0,204,255) 100%);
+  position: absolute;
+  left: 114px;
+  top: 80px;
+  width: 100px;
+  height: 36px;
+  z-index: 7;
+}
+.Login_Button {
+  border-radius: 5px;
+  background-color: rgb(8, 113, 185);
+  box-shadow: inset 0px 1px 5px 0px rgba(0, 0, 0, 0.35);
+  position: absolute;
+  left: 225px;
+  top: 36px;
+  width: 182px;
+  height: 38px;
+  z-index: 15;
+}
+.Login_Button_hover {
+  border-radius: 5px;
+  background-color: rgb(8, 113, 185);
+  box-shadow: inset 0px 6px 18px 0px rgba(0, 0, 0, 0.35);
+  position: absolute;
+  left: 225px;
+  top: 79px;
+  width: 182px;
+  height: 38px;
+  z-index: 19;
+}
+
+
+
+
+
+.Add_Lead_bg{
+  background-color: rgb(8, 113, 185);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  left: 114px;
+  top: 191px;
+  width: 484px;
+  height: 427px;
+  z-index: 23;
+}
+
+
+.dropdown_hover {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(225, 225, 225);
+  background-image: -moz-linear-gradient( 90deg, rgb(249,249,249) 0%, rgb(234,234,234) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(249,249,249) 0%, rgb(234,234,234) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(249,249,249) 0%, rgb(234,234,234) 100%);
+  position: absolute;
+  left: 133px;
+  top: 372px;
+  width: 447px;
+  height: 34px;
+  z-index: 37;
+}
+
+
+.dropdown_select{
+  background-color: rgb(255, 255, 255);
+  box-shadow: inset 0px 1px 5px 0px rgba(0, 0, 0, 0.35);
+  position: absolute;
+  left: 642px;
+  top: 374px;
+  width: 445px;
+  height: 32px;
+  z-index: 67;
+}
+
+.NewRegistration_Box_open {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(225, 225, 225);
+  border-radius: 3px;
+  background-color: rgb(0, 166, 81);
+  box-shadow: 0px 4px 8px 0px rgba(225, 225, 225, 0.004);
+  position: absolute;
+  left: 723px;
+  top: 199px;
+  width: 155px;
+  height: 138px;
+  z-index: 83;
+}
+
+
+
+.input_focus_color {
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(161, 235, 254);
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 638px;
+  top: 243px;
+  width: 450px;
+  height: 41px;
+  z-index: 56;
+}
+
+
+.property_history_hover {
+  border-radius: 5px;
+  background-image: -moz-linear-gradient( 90deg, rgb(8,113,185) 0%, rgb(0,204,255) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(8,113,185) 0%, rgb(0,204,255) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(8,113,185) 0%, rgb(0,204,255) 100%);
+  position: absolute;
+  left: 1007px;
+  top: 976px;
+  width: 100px;
+  height: 24px;
+  z-index: 214;
+}
+
